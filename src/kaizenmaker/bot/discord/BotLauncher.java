@@ -13,7 +13,7 @@ public class BotLauncher extends ListenerAdapter {
 
     public static void main (String[] args){
 
-        jda = JDABuilder.create("MTI1ODYxNzU3OTE1MzY1Nzg2Ng.GjmCEg.tW-ZyLR-JPoDVe5vHr6BNpPtbEkDJbVXN4YmYs",
+        jda = JDABuilder.create("TOKEN",
                 EnumSet.allOf(GatewayIntent.class)).build();
 
         jda.addEventListener(new BotLauncher());
